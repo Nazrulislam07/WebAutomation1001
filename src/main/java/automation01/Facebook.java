@@ -14,13 +14,13 @@ public class Facebook {
 
 		driver.get("http://facebook.com"); // URL in the browser
 
-		driver.findElement(By.id("email")).sendKeys("nazrulislamdobon@gmail.com");
+		driver.findElement(By.id("email")).sendKeys("Nazrul");
 
-		driver.findElement(By.name("pass")).sendKeys("dObon1987");
+		driver.findElement(By.name("pass")).sendKeys("123456");
 
 		driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
 
-		System.out.println("Succsessfully logged in");
+		//System.out.println("Succsessfully logged in");
 
 
 		//	driver.findElement(By.linkText("Forgot account?")).click();
